@@ -188,7 +188,7 @@ const Header = ({ setView, cartItemCount }) => {
                     className="text-2xl font-bold text-gray-800 cursor-pointer"
                     onClick={() => setView({ name: 'home' })}
                 >
-                    Jonel's <span className="text-blue-600">Printing</span>
+                    <img src="images/company-logo.jpg" alt="Logo" className='w-40 h-25'/>
                 </div>
 
                 {/* Desktop Navigation */}
